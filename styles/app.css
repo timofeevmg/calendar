@@ -48,9 +48,13 @@ body {
 
   font-weight: bold;
   font-size: 16px;
+
+  text-align: center;
 }
 
 .calendar-date {
+  width: 100%;
+
   margin-bottom: 30px;
   padding-bottom: 20px;
 
@@ -70,10 +74,22 @@ td {
   text-align: center;
 }
 
-.rounded-green {
+/* .rounded-green {
   border-radius: 50%;
 
   background-color: #589c5f;
+} */
+
+td:hover,
+td:focus {
+  border-radius: 50%;
+
+  background-color: #589c5f;
+}
+
+.calendar-todo {
+  margin: 0;
+  padding: 0;
 }
 
 .todo-name {
